@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchMatch"
+    android:background="#ffffff">
+
+    <cn.bingoogolapple.bgabanner.BGAGuideLinkageLayout
+        style="@style/MatchMatch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <cn.bingoogolapple.bgabanner.BGABanner
+            android:id="@+id/banner_guide_background"
+            style="@style/MatchMatch"
+            android:visibility="gone"
+            app:banner_pageChangeDuration="1000"
+            app:banner_pointAutoPlayAble="false"
+            app:banner_pointContainerBackground="@android:color/transparent"
+            app:banner_pointDrawable="@drawable/selector_banner_unequal"
+            app:banner_pointTopBottomMargin="15dp"
+            app:banner_transitionEffect="fade" />
+
+        <cn.bingoogolapple.bgabanner.BGABanner
+            android:id="@+id/banner_guide_foreground"
+            style="@style/MatchMatch"
+            android:visibility="visible"
+            app:banner_pageChangeDuration="1000"
+            app:banner_pointAutoPlayAble="false"
+            app:banner_pointContainerBackground="@android:color/transparent"
+            app:banner_pointDrawable="@drawable/selector_banner_unequal"
+            app:banner_pointTopBottomMargin="15dp"
+            app:banner_transitionEffect="alpha" />
+    </cn.bingoogolapple.bgabanner.BGAGuideLinkageLayout>
+
+    <TextView
+        android:id="@+id/tv_guide_skip"
+        style="@style/WrapWrap"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:clickable="true"
+        android:padding="4dp"
+        android:text="跳过 >"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_guide_enter"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="8dp"
+        android:text="点击进入"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>

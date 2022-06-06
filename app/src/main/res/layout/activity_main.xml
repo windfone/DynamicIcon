@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="第一步" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:text="第二步" />
+
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="30dp"
+        android:src="@mipmap/icon_camera" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv3"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:text="更换图标" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="2022-05-26 10:16:00" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:text="恢复图标" />
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="2022-05-26 10:16:00" />
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/et5"
+        android:text="保存" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android CODE/DynamicDemo/app/src/main/res/drawable/selector_banner_unequal.xml" value="0.3485" />
+        <entry key="..\:/Android CODE/DynamicDemo/app/src/main/res/layout/activity_guide.xml" value="0.29483695652173914" />
+        <entry key="..\:/Android CODE/DynamicDemo/app/src/main/res/layout/activity_launcher.xml" value="0.26458333333333334" />
+        <entry key="..\:/Android CODE/DynamicDemo/app/src/main/res/layout/activity_main.xml" value="0.26458333333333334" />
+        <entry key="..\:/Android CODE/DynamicDemo/app/src/main/res/layout/main_layout_bottom_tab_guide.xml" value="0.5380208333333333" />
+        <entry key="..\:/Android CODE/DynamicDemo/app/src/main/res/layout/main_layout_camera_guide.xml" value="0.5380208333333333" />
+        <entry key="..\:/AndroidCODE/DynamicDemo/app/src/main/res/layout/activity_launcher.xml" value="0.5494791666666666" />
+        <entry key="..\:/AndroidCODE/DynamicDemo/app/src/main/res/layout/activity_main.xml" value="0.5494791666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

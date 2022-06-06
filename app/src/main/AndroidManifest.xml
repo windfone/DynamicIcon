@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dynamicdemo">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DynamicDemo">
+        <activity
+            android:name="com.example.dynamicdemo.SplashActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppLauncherTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.dynamicdemo.NewSplashActivity"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/icon_camera"
+            android:label="测试名字"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppLauncherTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dynamicdemo.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Splash" />
+        <activity
+            android:name="com.example.dynamicdemo.LauncherActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@style/AppLauncherTheme" />
+        <activity
+            android:name="com.example.dynamicdemo.GuideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Splash" />
+    </application>
+
+</manifest>
